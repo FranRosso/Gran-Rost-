@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../estilos.css">
+	<link rel = "preconnect" href = "https://fonts.gstatic.com">
+	<link href = "https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,100; 0,300; 0,700; 1,100 & display = swap "rel =" stylesheet ">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+
+	<meta name="keywords" content="restaurantes, catalogo, guia, tour, recomendados, bebidas, comida, rapida, servicios, gastronimía, restaurantes locales" />
+	<meta name="description" content="El sitio que te permite encontrar cualquier restaurante de tu ciudad en un solo lugar y ajustado a tus necesidades" />
+
+	<title>Usuario</title>
+</head>
+<body>
+	<header>
+		<div class="header__logotipo">
+			<a href="../index.html"><img src="../multimedia/logo.png" width="150"></a>
+		</div>
+		<form class="buscador">
+			<input type="text" name="buscador" placeholder="Buscar">
+		</form>
+		<nav>
+			<ul class="menu">
+				<li class="menu__1"><a href="ofertas.html">Ofertas</a></li>
+				<li class="menu__2"><a href="restaurantes.html">Restaurantes</a></li>
+				<li class="menu__4"><a href="usuario.html">Usuarios</a></li>
+			</ul>
+		</nav>
+		
+	</header>
+<h1>Usuario</h1>
+	<div class="reticula">
+	<section class="usuario">
+		<p class="texto1">Generar una cuenta de usuario nos permitirá brindarle opciones acorde a sus necesidades</p>
+	<h2>Datos principales</h2>
+	<form class="datos__usuario">
+			<h3>Nombre de usuario</h3>
+			<input type="text" name="nombre de usuario" placeholder="Ingrese su nombre">
+			<h3>Correo electrónico</h3>
+			<input type="email" name="email" placeholder="ingrese su correo electrónico">
+			<h3>Contraseña</h3>
+			<input type="password" name="contraseña" placeholder="Ingrese su contraseña">
+			<h3>Confirmar contraseña</h3>
+			<input type="password" name="confirmar contraseña" placeholder="Confirme su contraseña">
+		<button>Confirmar</button>
+	</form>
+	<h2>Datos secundarios</h2>
+	<form class="preferencias">
+		<h3> Ciudad</h3>
+		<select name="ciudad">
+			<option>Santa Fe</option>
+			<option>Rosario</option>
+			<option>Paraná</option>
+			<option>Esperanza</option>
+			<option>Rafaela</option>
+		</select>
+
+		<h3>Ambiente preferido</h3>
+		<div class="ambiente">
+		<label><input type="radio" name="ambiente">Juvenil</label>
+		<label><input type="radio" name="ambiente">Familiar</label>
+		<label><input type="radio" name="ambiente">Sofisticado</label>
+		<label><input type="radio" name="ambiente">Empresarial</label>
+		</div>
+		<button>Confirmar</button>
+	</form>
+	
+	<form class="nots">
+		<label>¿Desea recibir notificaciones sobre ofertas por email?<input type="checkbox" name="notificaciones"></label>
+	</form>
+	</section>
+	</div>
+	<footer>
+		<div class="footer__redes">
+			<a href="#"><img src="../multimedia/facebook.png"></a>
+			<a href="#"><img src="../multimedia/whatsapp.png"></a>
+			<a href="#"><img src="../multimedia/instagram.png"></a>
+		</div>
+		<p class="footer__text">Las ofertas promocionales quedan sujetas a condiciones exhibidas en la página del restaurante. Las ofertas de bebidas alcohólicas se reservan estrictamente para adultos. El abuso de alcohol es peligroso para tu salud. Bebé con moderación.</p>
+	</footer>
+
+</body>
+</html>
